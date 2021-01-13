@@ -27,4 +27,4 @@ jobs:
         uses: einaregilsson/build-number@v3 
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          prefix: GITHUB_REF
+          prefix: $GITHUB_REF
